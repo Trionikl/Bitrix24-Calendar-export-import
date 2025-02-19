@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.export-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.export-form select, .export-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.export-form button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+.export-form button:hover {
+    background-color: #218838;
+}
+#export-message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #28a745;
+    text-align: center;
+    margin-bottom: 25px;
+}
